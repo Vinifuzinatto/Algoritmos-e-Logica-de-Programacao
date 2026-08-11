@@ -34,24 +34,24 @@ programa {
     escreva ("\n A média semestral é: ", media)
 
   //Saídas:
-  escreva ("\n\n Nome: ", nome)
-  escreva ("\n Curso: ", curso)
-  escreva ("\n Semetre: ", semestre)
-  escreva ("\n Disciplina: ", disciplina)
-  escreva ("\n Média: ", media)
+    escreva ("\n\n Nome: ", nome)
+    escreva ("\n Curso: ", curso)
+    escreva ("\n Semetre: ", semestre)
+    escreva ("\n Disciplina: ", disciplina)
+    escreva ("\n Média: ", media)
 
   //Status do aluno: 
-    se (media > 59 e media <= 100) {
-      escreva ("\n Status: Você foi APROVADO! \n")
-    }
-    senao se (media <= 59 e media > 39) {
-      escreva ("\n Status: Você está de RECUPERAÇÃO! \n")
-    }
-    senao se (media <= 39 e media >= 0) {
-      escreva ("\n Status: Você está REPROVADO! \n")
-    } 
-    senao {
-      escreva ("\n VALOR INVÁLIDO DE NOTA (ULTRAPASSOU O LIMITE)!!! \n")
-    }
+      se (media > 59 e media <= 100) {
+        escreva ("\n Status: Você foi APROVADO! \n")
+      }
+      senao se (media <= 59 e media > 39) {
+        escreva ("\n Status: Você está de RECUPERAÇÃO! \n")
+      }
+      senao se (media <= 39 e media >= 0) {
+        escreva ("\n Status: Você está REPROVADO! \n")
+      } 
+      senao {
+        escreva ("\n VALOR INVÁLIDO DE NOTA (ULTRAPASSOU O LIMITE)!!! \n")
+      }
   }
 }
