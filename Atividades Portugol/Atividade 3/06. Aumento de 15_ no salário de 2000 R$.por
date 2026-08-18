@@ -16,6 +16,7 @@ programa {
     
     escreva ("\nO aumento do salário foi de ", aumento, " R$ \n")
     escreva ("O salário final com o aumento é de ", valor_final, " R$ \n")
+
     }
     senao
     {
