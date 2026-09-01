@@ -16,10 +16,13 @@ programa {
     {
       escreva ("\nVocê é adolescente!")
     }
-    senao
+    senao se (idade >= 18 e idade < 60)
     {
       escreva ("\nVocê é adulto!")
     }
-    
+    senao
+    {
+      escreva ("\nVocê é idoso")
+    }
   }
 }
