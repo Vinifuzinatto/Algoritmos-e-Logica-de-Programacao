@@ -3,18 +3,19 @@ programa {
 
     escreva("ESTÁ CHOVENDO! \n")
 
-    logico chovendo = falso
+    cadeia resposta
+    logico chovendo
 
     escreva("\nEstá chovendo agora? (sim/não): ")
-    leia(chovendo)
+    leia(resposta)
 
-    se (nao(chovendo))
-    {
-      escreva ("\nNão está chovendo!")
+    se (resposta == "sim"){
+      chovendo = verdadeiro
+      escreva ("\nEstá chovendo, você não pode sair!")
     }
-    senao
-    {
-      escreva ("\nEstá chovendo!")
+    senao{
+      chovendo = falso
+      escreva ("\nNão está chovendo, você pode sair!")
     }
   }
 }
