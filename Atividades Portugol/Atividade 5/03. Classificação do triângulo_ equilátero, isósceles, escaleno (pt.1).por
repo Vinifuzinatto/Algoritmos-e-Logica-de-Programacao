@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 
-    escreva ("CLASSIFICAÇÃO DE UM TRIÂNGULO QUALQUER! \n")
+    escreva ("CLASSIFICAÇÃO DE UM TRIÂNGULO QUALQUER (pt.1)! \n")
 
     real lado_1, lado_2, lado_3
 
