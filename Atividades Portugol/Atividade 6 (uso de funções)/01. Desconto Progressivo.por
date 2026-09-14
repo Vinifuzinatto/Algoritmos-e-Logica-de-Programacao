@@ -1,9 +1,10 @@
 programa {
 
   funcao real desconto (real valor) {
-    se (valor <= 100) retorne valor * 0.10 //Desconto de 10% sobre o valor!
-    senao se (valor <= 500) retorne valor * 0.15 //Desconto de 15% sobre o valor!
-    senao retorne valor * 0.20 //Desconto de 20% sobre o valor!
+    se (valor >= 100 e valor < 300) retorne valor * 0.10 //Desconto de 10% sobre o valor!
+    senao se (valor >= 300 e valor <= 500) retorne valor * 0.15 //Desconto de 15% sobre o valor!
+    senao se (valor > 500) retorne valor * 0.20 //Desconto de 20% sobre o valor!
+    senao retorne 0.00 //Sem desconto
   }
 
   funcao inicio() {
